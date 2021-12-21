@@ -4,10 +4,10 @@ import UserSearch from '../components/Users/UserSearch'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <UserSearch />
       <UserResults />
-    </div>
+    </>
   )
 }
 
